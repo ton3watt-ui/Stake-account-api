@@ -1,1 +1,14 @@
-{\n  \"name\": \"stake-account-api\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Solana Stake Account API\",\n  \"main\": \"dist/index.js\",\n  \"scripts\": {\n    \"build\": \"tsc\",\n    \"start\": \"node dist/index.js\",\n    \"dev\": \"ts-node src/index.ts\"\n  },\n  \"dependencies\": {\n    \"@solana/web3.js\": \"^1.31.0\",\n    \"express\": \"^4.17.1\",\n    \"dotenv\": \"^10.0.0\"\n  },\n  \"devDependencies\": {\n    \"typescript\": \"^4.4.4\",\n    \"ts-node\": \"^10.0.0\"\n  }\n}
+{
+  "name": "stake-account-api",
+  "version": "1.0.0",
+  "description": "Solana Stake Account API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.31.0",
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0"
+  }
+}
